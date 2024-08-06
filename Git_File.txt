@@ -1,0 +1,231 @@
+1.what is java?
+
+* 1995 in the name of java before to that It was introduced in the name of oak in 1991
+
+* It's has been introduced by sun micro system its currently undertake by Oracle.
+
+* It is started with less talk, Stimuli, C++, Java, Python, C#...
+
+* It's a freeware/non-commercial.
+
+* It's an open source.
+
+* It's a platform independent programming language.
+
+* Java is a multithreaded architecture.
+
+* Java has a powerful exception handling mechanism.
+
+* Java has a powerful memory management mechanism.
+
+* Java has Its own run time environment.
+
+* Java high-level programming language.
+
+* Java can support to develop multiple platform publication.
+
+
+2.semi colon; - end of statement
+
+3.Case sensitive
+Eg: Selenium - Capital letter S
+    selenium - small letter s
+	
+4.open/close curly brace-{}
+
+5-open/close Dimension-[]
+
+6.Open/close Paranthesis-()
+
+7.Command:- executable by JVM
+----------
+    System.Out.Println();- Printing command and prints the output in a new line
+	System.Out.Print();- Prints the command,but all the outputs are displayed in a single line
+
+8.Comment: - cannot executed by JVM(description in the program)
+----------
+Single line comment - double blackslash - //
+Multi line comment - description for a paragraph
+Syntax:
+    /*
+     *Multi line comments
+	 */
+	 
+9.JAVA Process:
+   1.Creating source file
+   2.Saving java file with extension .java
+   Ex: Testfile.java
+   3.Compile the java file - Javac creates a .class file
+   ex; Testfile.class
+   Class file contains binary codes 0's and 1's
+   Ex: Testfile.class
+   
+10.Creating and executing Java program using Notepad:
+----------------------------------------------------
+1.Create a Java program in the notepad and save it with an extention .Java with same as class name
+Ex:Test.java
+
+2.Navigate to folder path and copy the folder path
+
+3.Open command prompt
+Give the folder drivve and enter
+Eg:c:\User\parth.E:
+
+E:
+
+4.Now enter cd give the complee folder path
+cd E:\Parthiban
+
+E:\Parthiban
+
+5. To compile the java file give command in cmd and click on tab to get the file. Select the fille and erase the extension in cmd
+Javac Test.Java
+
+E:\Parthiban>Javac Test.java
+
+6.After compilation, compiler creates the Class file with extension .class in the source file folder
+Ex: Test.Class
+
+7.To execute the class file, give the command as java and click on tab to get the class file with extension .class. Clear the extension .class and click on Enter
+
+E:\Parthiban>java Test
+
+Output will be displayed in the command prompt
+
+Sunday class
+------------
+1.Data management:
+     Store the data in the Java memory  and it can be retrieved later
+	 
+Store and retrieve the data:
+----------------------------
+Variable and Datatypes:
+-----------------------
+    To store data in Java memory - there is a place holder called variable
+Variable - adderess/reference to store the value in the Java memory
+Variavle should always be alpha, Variable name should be unique
+
+Datatype:
+    depends the data/value to ve stored. Different data types are available 
+Ex:int
+	 
+Syntax:
+int x=100;
+int - datatype,
+x - variable,
+100 - data
+
+keywords(data types):
+    1.primitive, 2.Non primitive 3.Reference
+	
+Primitive
+---------
+1.Byte - 1 byte
+2.Short - 2 byte
+3.Int - 4 byte
+4.Long - 8 byte
+5.Double - 8 byte
+6.Float - 4 byte
+7.Char - 2 byte
+8.Bollean - 1 bit
+
+Non Primitive
+-------------
+1.String
+2.Array
+
+Reference :(Leter)
+---------
+
+Variable declaration: declaring the variable only -> Eg: int x;
+Variable Initialisation: assigning the value to the variable
+Eg: int x=100;
+   
+   
+   
+ OPERATERS:
+ ----------
+Used to perform the operation more than one variable;
+ex:int a=100;
+   int b=200;
+   a+b;
+   
+   a,b--> operands
+   '+'--> operator
+   
+   1.Arithmetic operator --> arithmatic oprations --> + , - , * , /
+   2.Relational operator --> Compares 2 variable --> < , > , <= ,>= (Output will be boolean value true or false only)
+   3.Logical operator --> AND(&&),OR(||),NOT(!)
+   4.Assignment aperator
+   5.Equivlence operator
+   6.Concatenation operator
+   7.Incremental operator
+   8.Decremental operator
+   9.Conditional/Ternary operator
+   10.Bitwise Operator
+   
+ logical operator:
+ 
+   AND:'&' --> 2 operand, both condition  should be true
+   
+   OR: '||' -->either one of the conditions should be satisfied
+   
+   NOT: '!' -->
+   
+Concatenation Operator: '+'
+
+  * Joins two String value
+   
+Assignment Operator: '='
+
+Equivalence Operator: '=='
+
+Incremental Operator: '++'
+  * Increments one value to the current assigned variable. Used in loops/Iteration
+  * Pre/Post Incremental Operator:
+  Eg: x=10
+  ++x; 
+  x++; now x=11
+Decremental Operator: '--'
+  * Pre/Post Decremental Operator:
+  Eg: x=10
+  --x;
+  x--; now x=9
+  
+Conditional/Ternary Operator: '?:'
+ 
+ Function/Methods:
+ -----------------------------------------------
+1.Collection of java program/statements
+2.Function is a block
+3.In java programs can be developed within the functions only
+4.Two type of functions--> Predefined and User defined Function
+5.A class can Have any number of function
+6.The function name should represent a verbalfrom - (verbe-actions)
+7.The function name should start with small latter and incase if it has more than 2 functions, use camlcase
+     Eg: doLogin
+8.Function are parallel to each other and it should not overlap
+9.We can call one function from other function
+10.A function can be called any number of times
+11.A function can be accept any number of arguments
+12.A function can return only one value
+13.A function name should be unique
+14.If more than one function has a same name but with different parameters is called function overloading
+15.Function can be static or non-static
+   
+
+   
+   
+   
+   
+   
+  
+
+
+
+
+   
+   
+
+
+
